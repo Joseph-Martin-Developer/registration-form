@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  */
+.container {
+    min-height: 100vh;
+    background-color: #1b1b32;
+    color: #f5f6eb;
+}
+
+#main {
+    max-width: 500px;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.header-content {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.header-content h1 {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.section-form {
+    padding-bottom: 1.5rem;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 0.3rem 0;
+    margin: 0.5rem 0;
+    padding-left: 0.5rem;
+    color: #fff;
+    background-color: #0a0a23;
+    border-radius: 0.2rem;
+}
+
+input,textarea {
+    border: none;
+    color: #fff;
+}
+.account-section{
+    padding: 1.5rem 0;
+}
+
+
+.section-form label,
+.account-section label {
+    text-transform: capitalize;
+}
+
+
+
+.account-margin {
+    margin: 0.8rem 0;
+}
+
+
+.account-section a {
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.last-section {
+    padding: 1.5rem 0;
+}
+
+.last-section label {
+display: block;
+margin-bottom: 0.3rem;
+}
+
+.last-section input,textarea {
+    background-color: #0a0a23;
+    width: 100%;
+    padding: 0.3rem 0;
+}
+
+.margin-last-section {
+    margin-bottom: 0.8rem;
+}
+
+select {
+    width: 100%;
+    padding: 0.3rem 0;
+    border-radius: 0.2rem;
+}
+
+input[type="number"],
+input[type="file"],
+textarea{
+    border-radius: 0.2rem;
+}
+
+textarea{
+    resize: none;
+    padding-left: 0.5rem;
+}
+
+
+.btn {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+button {
+    background-color: #3b3b4f;
+    color: #fff;
+    padding: 0.5rem 0 ;
+    width: 50%;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: #757575;
+}

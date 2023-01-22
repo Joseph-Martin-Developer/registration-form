@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <main id="main">
+            <div class="header-content">
+                <h1>registration form</h1>
+                <p>Please fill out this form
+                    with the required information</p>
+            </div>
+
+            <section class="section-form">
+                <form action="#" method="post">
+                    <div>
+                        <label for="first-name">first name:</label>
+                        <input type="text" id="first-name" name="user-first-name" required>
+                    </div>
+
+                    <div>
+                        <label for="last-name">last name:</label>
+                        <input type="text" id="last-name" name="user-last-name" required>
+                    </div>
+                    <div>
+                        <label for="user-email">email:</label>
+                        <input type="email" id="user-email" name="user-email" required>
+                    </div>
+
+                    <div>
+                        <label for="pass">password:</label>
+                        <input type="password" id="pass" name="user-password" required>
+                    </div>
+
+            </section>
+            <hr>
+            <section class="account-section">
+                <div class="account-margin">
+                    <input type="radio" id="personal-account" name="account">
+                    <label for="personal-account">personal account</label>
+                </div>
+
+                <div class="account-margin">
+                    <input type="radio" id="business-account" name="account">
+                    <label for="business-account">business account</label>
+                </div>
+                <div class="account-margin">
+                    <input type="checkbox" id="terms" name="termsAndCondition" required>
+                    <label for="terms">I accept the <a href="#">terms and conditions</a></label>
+                </div>
+            </section>
+            <hr>
+
+            <section class="last-section">
+                <div class="margin-last-section">
+                    <label for="user-picture">Upload a profile picture:</label>
+                    <input type="file" id="user-picture" accept=".jpg,.png">
+                </div>
+
+                <div class="margin-last-section">
+                    <label for="year">Input your age (years):</label>
+                    <input type="number" id="year" min="12" max="50">
+                </div>
+
+                <div class="margin-last-section">
+                    <label for="how-did-you-hear-freecodecamp">How did you hear about us?</label>
+
+                    <select name="How did you hear about us?" id="how-did-you-hear-freecodecamp">
+                        <option value="select one" selected>(select one)</option>
+                        <option value="freeCodeCamp News">FreeCodeCamp News</option>
+                        <option value="freeCodeCamp Youtube Channel">FreeCodeCamp Youtube Channel</option>
+                        <option value="freeCodeCamp Forum">FreeCodeCamp Forum</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="margin-last-section">
+                    <label for="bio">Provide a bio:</label>
+
+                    <textarea id="bio" placeholder="I like coding on the beach..." name="provide a bio" rows="3"
+                        cols="50" placeholder="I like coding on the beach..."></textarea>
+
+                </div>
+
+            </section>
+            <div class="btn"><button type="submit">submit</button></div>
+            </form>
+        </main>
+    </div>
+
+</body>
+
+</html>
